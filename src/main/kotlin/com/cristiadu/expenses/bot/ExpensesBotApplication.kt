@@ -8,8 +8,10 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication
 @EnableConfigurationProperties(ApplicationConfig::class)
-class ExpensesBotApplication
+class ExpensesBotApplication {
 
-fun main(args: Array<String>) {
-    runApplication<ExpensesBotApplication>(*args)
+    fun main(args: Array<String>) {
+        runApplication<ExpensesBotApplication>(*args)
+    }
+
 }

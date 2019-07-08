@@ -12,9 +12,9 @@ import org.springframework.test.context.junit4.SpringRunner
 @TestPropertySource(locations = ["/application-test.properties"])
 internal class ExpensesBotApplicationTests {
 
-	@Test
-	fun contextLoads() {
-		// Testing that application loads successfully
-	}
+    @Test
+    fun contextLoads() {
+        // Testing that application loads successfully
+    }
 
 }

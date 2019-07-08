@@ -11,7 +11,7 @@ import javax.validation.constraints.NotBlank
 @Validated
 @ConfigurationProperties("app.config")
 @Configuration
-class ApplicationConfig() {
+class ApplicationConfig {
     @field:NotBlank
     @field:Value("\${privateKey:#{null}}")
     lateinit var privateKeyFilePath: String

@@ -7,7 +7,7 @@ import org.springframework.test.util.AssertionErrors.assertTrue
 import javax.validation.Validation
 
 
-internal class ApplicationConfigTest() {
+internal class ApplicationConfigTest {
     private lateinit var applicationConfig: ApplicationConfig
     private val validator = Validation.buildDefaultValidatorFactory().validator
 

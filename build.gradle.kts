@@ -24,6 +24,8 @@ repositories {
 dependencies {
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor:${dependenciesVersions["springBoot"]}")
     implementation("io.ktor:ktor-client-okhttp:${dependenciesVersions["ktorOkHttpClient"]}")
+    implementation("io.ktor:ktor-client-json:${dependenciesVersions["ktorOkHttpClient"]}")
+    implementation("io.ktor:ktor-client-gson:${dependenciesVersions["ktorOkHttpClient"]}")
     implementation("org.springframework.boot:spring-boot-starter-web:${dependenciesVersions["springBoot"]}")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${dependenciesVersions["kotlin"]}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${dependenciesVersions["kotlin"]}")
